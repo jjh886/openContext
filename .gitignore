@@ -20,3 +20,37 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.dist-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.db
+*.sqlite
+*.sqlite3
+.env
+venv/
+.venv/
+env/
+
+# TypeScript / Node
+typescript/node_modules/
+typescript/dist/
+
+# Go
+golang/vendor/
+
+# Editor
+.idea/
+*.swp
+*.swo
